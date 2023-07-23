@@ -4,6 +4,7 @@ import { test, expect } from "@baseTest";
 test.only('Sample Test', async( { app } ) => {
     await test.step('Navigate to Rockstar Home page', async() => {
         await app.home.navigateToRockStarHomePage();
+        //await app.page.context().storageState({path: './mocks/auth/cf_sessionStorage.json'});
     });
     await test.step('Click Account Icon', async() => {
         await app.header.clickRockstarAccount();
