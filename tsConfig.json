@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@lib/*":["./lib/*"],
+            "@pages/*":["./pages/*"],
+            "@baseTest":["fixtures/BaseTest.ts"],
+            "@testConfig":["./testConfig.ts"]
+        }
+    }
+}

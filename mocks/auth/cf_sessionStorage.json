@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "CF_AppSession",
+      "value": "nbf4abbe52793384e",
+      "domain": "www.rsenergystaging.com",
+      "path": "/",
+      "expires": 1720730170,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "notice_behavior",
+      "value": "none",
+      "domain": ".rsenergystaging.com",
+      "path": "/",
+      "expires": 1720730170,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CF_Authorization",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxN2I4YWUxOWRhYzU3MDdhMzIwMGFhOGZlYzAwYjM3N2NmYjRmM2I3MjQ3Yjg2YmY4ZmJjNzMxMDRiMDI2OWYifQ.eyJhdWQiOlsiZmNiNmE5OTdmMjgyOTI5MzMxMzJiOWYzZDc1OTBlZTE3YjgzMTUzNWJkNTgyNzk4M2MyMzY3NzIxNjQyNmFjNCJdLCJlbWFpbCI6ImhlYmVyLmNhcmRvbmEuY29udHJhY3RvckBwZXBzaWNvLmNvbSIsImFjY291bnRfaWQiOiI2MjFiZDU2ZTU4NTMyZWE5ODk1MDFjZGMzODI5MzI3MSIsImV4cCI6MTY4OTM3MDM4MiwiaWF0IjoxNjg5MjgzOTgyLCJuYmYiOjE2ODkyODM5ODIsImlzcyI6Imh0dHBzOi8vcGVwc2ljby5jbG91ZGZsYXJlYWNjZXNzLmNvbSIsInN1YiI6IjRiZTExY2ZlLWUzY2YtNWIzOC05Yjc3LTJlMjk1MWMxZjcyOCIsImlkZW50aXR5Ijp7ImVtYWlsIjoiaGViZXIuY2FyZG9uYS5jb250cmFjdG9yQHBlcHNpY28uY29tIiwiaWRwIjp7ImlkIjoiZGU2YmI4YWEtOTljYi00YjM3LTg3MjktZTFmYTcwMGUxN2VmIiwidHlwZSI6Im9uZXRpbWVwaW4iLCJuYW1lIjoiIiwiY29uZmlnIjp7InJlZGlyZWN0X3VybCI6Imh0dHBzOi8vcGVwc2ljby5jbG91ZGZsYXJlYWNjZXNzLmNvbS9jZG4tY2dpL2FjY2Vzcy9jYWxsYmFjayJ9LCJtZXRhZGF0YSI6e30sInZlcnNpb24iOiJmZTQ5NTNkYjkwNDQyZWM5NmU2NjgzMDdjZGQ5MWMxOSIsInNjaW1fY29uZmlnIjp7fX0sImdlbyI6eyJjb3VudHJ5IjoiTVgifSwidXNlcl91dWlkIjoiNGJlMTFjZmUtZTNjZi01YjM4LTliNzctMmUyOTUxYzFmNzI4IiwiYWNjb3VudF9pZCI6IjYyMWJkNTZlNTg1MzJlYTk4OTUwMWNkYzM4MjkzMjcxIiwiaWF0IjoxNjg5MjgzOTgyLCJpcCI6IjE4OS4yMTkuMjQ4LjE2NiIsImF1dGhfc3RhdHVzIjoiTk9ORSIsImNvbW1vbl9uYW1lIjoiIiwic2VydmljZV90b2tlbl9pZCI6IiIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJkZXZpY2VfaWQiOiIiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjp0cnVlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJ2ZXJzaW9uIjoyfSwidHlwZSI6Im9yZyIsImlkZW50aXR5X25vbmNlIjoic2xBODBCNG42OFFYSzlNSyJ9.uh_X5leX0AUZckgiVT00OT-BIW74v9YHwrd7hxrQW0HxLQg6b44KKys92QBLnlkShyfTkHhzYXZFQCIKSCRc_8BAvf5ItIqsu8Mfja8s17blFguKs6toP3N8eJ6fMCs6-8aW4Mcycd3vDb_Da11JEUNaN84ZZgtrKt_W2onTWozB3vcwir6gWZ0buhXk44SJqu9pHG5kRUVTdytlXEReJnp0O3GcoyVbKDCp1nd3PigWBsog1NduoGhcYsLZMvzvS0INEtvqOxdIqJTxI5SOb6796lOFwuk9H3liMh2O8EBdhRqN_xGVhJx2SgcmgvXVRX3WGVQC9hB_L8vzrRHtig",
+      "domain": "pepsico.cloudflareaccess.com",
+      "path": "/",
+      "expires": 1689370383.918288,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CF_Device",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxN2I4YWUxOWRhYzU3MDdhMzIwMGFhOGZlYzAwYjM3N2NmYjRmM2I3MjQ3Yjg2YmY4ZmJjNzMxMDRiMDI2OWYifQ.eyJ0eXBlIjoidHJ1c3RlZF9kZXZpY2UiLCJpc3MiOiJodHRwczovL3BlcHNpY28uY2xvdWRmbGFyZWFjY2Vzcy5jb20iLCJpYXQiOjE2ODkyODM5ODIsImV4cCI6MTY5MTg3NTk4MiwianRpIjoiRXZMRFRzbk10YXJZY2dyZ21FdlZSWkt6cWlyRU9wQUQiLCJlbWFpbHMiOlsiaGViZXIuY2FyZG9uYS5jb250cmFjdG9yQHBlcHNpY28uY29tIl19.Ey7vxiQs0Y7d6x8lcw4RVhbXfwbJIlbqLgLuc6IxKxtXGiWg_qgVKXIUKQsEatole6YqHTstfA9ZmMTLA_mJgDjkl_qomAOjX34uUO3TP2RT2sP03GFRTNk0-uyKOk9I3pBkZTLSKuOUot_WYTbxhMJUqLSePTzyjypMNhYpkFB8-P1bqsRm3zcJbpSR4Sfx8igGje3ZaM0CHA7PrD6pRzlY3BtOfddduKnXnXJtn-8I7057OwEOisp_4dnvwFHsXgj--zQjltd_oPfHhdJo4xPjaDy36RcpaVzdE3Auu2uc1i9NGSchkwEWDQELjx7lf6MCUEINEJaLvMs2iFZ-XA",
+      "domain": "pepsico.cloudflareaccess.com",
+      "path": "/",
+      "expires": 1691875983.918391,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "CF_Authorization",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxN2I4YWUxOWRhYzU3MDdhMzIwMGFhOGZlYzAwYjM3N2NmYjRmM2I3MjQ3Yjg2YmY4ZmJjNzMxMDRiMDI2OWYifQ.eyJhdWQiOlsiY2U4YjNmZDk3MzA5YTgxZmMyMjY1ZWU5NThiZTVlMTdkMWIzYWEwZWEzMWIzMjQxMzJjNzZhZTBlMmM1MzkwOSJdLCJlbWFpbCI6ImhlYmVyLmNhcmRvbmEuY29udHJhY3RvckBwZXBzaWNvLmNvbSIsImV4cCI6MTY4OTM3MDM4MiwiaWF0IjoxNjg5MjgzOTgyLCJuYmYiOjE2ODkyODM5ODIsImlzcyI6Imh0dHBzOi8vcGVwc2ljby5jbG91ZGZsYXJlYWNjZXNzLmNvbSIsInR5cGUiOiJhcHAiLCJpZGVudGl0eV9ub25jZSI6InNsQTgwQjRuNjhRWEs5TUsiLCJzdWIiOiI0YmUxMWNmZS1lM2NmLTViMzgtOWI3Ny0yZTI5NTFjMWY3MjgiLCJjb3VudHJ5IjoiTVgifQ.DbXrLa15n9yRz1Xu8JFLfQbYIfs2pWNVt654yxtu7LaEOcf9iYiciHuS4oUyw2P2NoAEDuek6hOkLM-m9DWdr9hz527IRgpyTb5s2Hf0_Sbs2vsq9rmDLyIRzWgjOLbU183VSIxj5CSJbTZYDGWfldmou32hMmDb2s7VsZQeWwrpvsj_Y6UFIQrH2TKY7qed4cl37q1ZEQ7IWbkms2MI0abdpKUB82byWSbJ__ACdLkmuyagFvRUTcwMEo6E3LW477T_uP1KLkgbmgDAnAqpzl4A7dN5rtcaCdezkccCLMYtPpU_TeaOg7iWwBG6RrqzxSgZLJwdLxOQL4xoBPawkQ",
+      "domain": "www.rsenergystaging.com",
+      "path": "/",
+      "expires": 1689370382.736208,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "pepsico-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:staging": "npx cross-env ENV=staging npx playwright test --headed",
+    "test:uat": "npx cross-env ENV=uat npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.0",
+    "cross-env": "^7.0.3"
+  }
+}

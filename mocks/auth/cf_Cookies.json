@@ -1,0 +1,29 @@
+[{
+    "name": "CF_AppSession",
+    "value": "nbf4abbe52793384e",
+    "domain": "www.rsenergystaging.com",
+    "path": "/",
+    "expires": 1689280527.684386,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+}, {
+    "name": "CF_Authorization",
+    "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxN2I4YWUxOWRhYzU3MDdhMzIwMGFhOGZlYzAwYjM3N2NmYjRmM2I3MjQ3Yjg2YmY4ZmJjNzMxMDRiMDI2OWYifQ.eyJhdWQiOlsiZmNiNmE5OTdmMjgyOTI5MzMxMzJiOWYzZDc1OTBlZTE3YjgzMTUzNWJkNTgyNzk4M2MyMzY3NzIxNjQyNmFjNCJdLCJlbWFpbCI6ImhlYmVyLmNhcmRvbmEuY29udHJhY3RvckBwZXBzaWNvLmNvbSIsImFjY…L1LHLQlNTUaRIRgXauCxPvkWdqNRj9BE_Zme_yP9R6vZIJBbnqQPQyk_yKruOS5th8SCrTmHaGUl_8IgpDhUMHv4ZNOlHPW92YCw3jqDbDCSpWcFTp7j5EPSXBXovMgck0Vr-gw48n4IO6XdvwT7DDFZLdBJaKh1Aop-hbGVJ8qET8L0CQ-dCM1qGeBecF7aEbLR-ZRG_ZYAF8EOdVeBQWx0A",
+    "domain": "www.rsenergystaging.com",
+    "path": "/",
+    "expires": 1689280567.402229,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+}, {
+    "name": "notice_behavior",
+    "value": "none",
+    "domain": ".rsenergystaging.com",
+    "path": "/",
+    "expires": 1720730170,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+}
+]
