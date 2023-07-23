@@ -20,11 +20,10 @@ test.only('Sample Test', async( { app } ) => {
         await app.header.clickRockstarProducts();
         await app.home.clickRockStarHideUnavailableProducts();
         const product = await app.home.getAnyRockStarProduct();
-        await product.img.scrollIntoViewIfNeeded();
-        await product.img.click();
+        await app.home.clickRockstarProductImg(product);
     });
     await test.step('Add product to cart and go to cart', async() => {
-        await app.home.clickProductPlusQtyIcon(1);
+        await app.home.clickProductPlusQtyIcon(4);
         await app.home.clickRockStarAddToCart();
         await app.header.clickRockstarCart();
     });

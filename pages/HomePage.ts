@@ -42,14 +42,15 @@ export class HomePage {
 
     async clickProductPlusQtyIcon(times: number = 1): Promise<void> {
         for (let i = 0; i < times; i++) {
-            let qtyText = await this.RS_PRODUCT_QTY_TXT.innerText();
-            await this.RS_PRODUCT_QTY_PLUS.scrollIntoViewIfNeeded();
-            await this.RS_PRODUCT_QTY_PLUS.click();
+            await webActions.clickElement(this.RS_PRODUCT_QTY_PLUS);
+            if(times > 1) {
+                await webActions.delay();
+            }
         }
     }
 
     async clickRockStarHideUnavailableProducts(): Promise<void> {
-        await this.RS_PLP_CHECKBOX.click();
+        await webActions.clickElement(this.RS_PLP_CHECKBOX);
     }
 
     async getRockStarProducts(): Promise<ROCKSTAR_PRODUCT[]> {
@@ -75,8 +76,11 @@ export class HomePage {
     }
 
     async clickRockStarAddToCart(): Promise<void> {
-        await this.RS_ADD_TO_CART_BTN.scrollIntoViewIfNeeded();
-        await this.RS_ADD_TO_CART_BTN.click();
+        await webActions.clickElement(this.RS_ADD_TO_CART_BTN);
+    }
+
+    async clickRockstarProductImg(product: ROCKSTAR_PRODUCT): Promise<void> {
+        await webActions.clickElement(product.img);
     }
 
 }

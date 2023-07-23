@@ -1,4 +1,6 @@
+import { WebActions } from "@lib/WebActions";
 import { Locator, Page } from "@playwright/test";
+let webActions: WebActions;
 
 export class Header {
     private readonly page: Page;
@@ -17,10 +19,11 @@ export class Header {
         this.RS_ACCOUNT = this.page.getByRole('link', { name: 'sign-in'});
         this.RS_HAMBURGER_MENU = this.page.getByLabel('Primary Menu', {exact: true});
         this.RS_HOME_ICON = this.page.locator('header a img');
+        webActions = new WebActions(this.page);
     }
 
     async clickRockstarWhatsNext(): Promise<void> {
-        await this.RS_WHATS_NEXT.click();
+        await webActions.clickElement(this.RS_WHATS_NEXT);
     }
 
     async clickRockstarProducts(): Promise<void> {
@@ -28,7 +31,7 @@ export class Header {
     }
 
     async clickRockstarCart(): Promise<void> {
-        await this.RS_CART.click();
+        await webActions.clickElement(this.RS_CART);
     }
 
     async clickRockstarAccount(): Promise<void> {
@@ -40,6 +43,6 @@ export class Header {
     }
 
     async clickRockStarHomeIcon(): Promise<void> {
-        await this.RS_HOME_ICON.click();
+        await webActions.clickElement(this.RS_HOME_ICON);
     }
 }

@@ -1,5 +1,7 @@
+import { WebActions } from "@lib/WebActions";
 import { Locator, Page } from "@playwright/test";
 import { testConfig } from "@testConfig";
+let webActions: WebActions;
 
 export class SignIn {
     private readonly page: Page;
@@ -12,6 +14,7 @@ export class SignIn {
         this.EMAIL = this.page.getByLabel('Email Address');
         this.PASSWORD = this.page.getByLabel('Password');
         this.LOGIN_BTN = this.page.locator(`button[type='submit']`);
+        webActions = new WebActions(this.page);
     }
 
     async enterEmail(email: string): Promise<void> {
@@ -25,7 +28,7 @@ export class SignIn {
     }
 
     async clickLoginBtn(): Promise<void> {
-        await this.LOGIN_BTN.click();
+        await webActions.clickElement(this.LOGIN_BTN);
     }
 
     async loginAsAlice(): Promise<void> {
